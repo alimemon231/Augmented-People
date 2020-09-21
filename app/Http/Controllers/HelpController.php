@@ -14,13 +14,13 @@ class HelpController extends Controller {
 	*/
 
   /**
-	 * Nearby Platform help
+	 * Augmented People Platform help
 	 */
 	public function nearbyPlatformHelp()
 	{
-    $product = "Nearby Platform";
+    $product = "Augmented People Platform";
     $doctype = "Help";
-    $page_title = "Nearby Platform - Knowledge Base";
+    $page_title = "Augmented People Platform - Knowledge Base";
 
     $header_img = url('assets/images/backgrounds/triangles05.jpg');
     $color_dark = 'rgba(20,110,255,0.7)';
@@ -36,13 +36,13 @@ class HelpController extends Controller {
 	}
 
 	/**
-	 * Nearby Platform help pages
+	 * Augmented People Platform help pages
 	 */
 	public function nearbyPlatformHelpPage($page)
 	{
-    $product = "Nearby Platform";
+    $product = "Augmented People Platform";
     $doctype = "Help";
-    $page_title = "Documentation - Nearby Platform - Knowledge Base";
+    $page_title = "Documentation - Augmented People Platform - Knowledge Base";
     $header_img = url('assets/images/backgrounds/triangles05.jpg');
     $color_dark = 'rgba(20,110,255,0.7)';
     $color_light = '#d0e2ff';
@@ -59,12 +59,12 @@ class HelpController extends Controller {
 	}
 
 	/**
-	 * Nearby Platform help sub pages
+	 * Augmented People Platform help sub pages
 	 */
 	public function nearbyPlatformHelpPageSub($page, $sub) {
-    $product = "Nearby Platform";
+    $product = "Augmented People Platform";
     $doctype = "Help";
-    $page_title = "Documentation - Nearby Platform - Knowledge Base";
+    $page_title = "Documentation - Augmented People Platform - Knowledge Base";
     $header_img = url('assets/images/backgrounds/triangles05.jpg');
     $color_dark = 'rgba(20,110,255,0.7)';
     $color_light = '#d0e2ff';

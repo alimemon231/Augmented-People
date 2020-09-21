@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('page_title')Nearby Platform - Login - {{ config('system.premium_name') }} @stop
+@section('page_title')Augmented People Platform - Login - {{ config('system.premium_name') }} @stop
 @section('meta_description') Mobile and SEO optimized content for mobile devices. For Social Media, QR codes, NFC and proximity marketing. @stop
 
 @section('content')
@@ -104,7 +104,7 @@
               </div>
               <div class="col-12 col-lg-7 order-12 text-md-center text-lg-left">
 
-                <h2 class="display-3 mt-0 mt-lg-4 mb-0 color-dark">Nearby Platform</h2>
+                <h2 class="display-3 mt-0 mt-lg-4 mb-0 color-dark">Augmented People Platform</h2>
 
                 <h2 class="mb-5 mt-4">{!! trans('nearby-platform.customer_loyalty') !!}</h2>
 

@@ -1,4 +1,4 @@
-# NowSquare Nearby Platform
+# NowSquare Augmented People Platform
 Multi-user Mobile CMS with deals, coupons, rewards, business cards, QR codes and more. Licensed under the permissive MIT License.
 
 ![homepage](screens/01_homepage.png)

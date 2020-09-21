@@ -29,7 +29,7 @@
               <ol class="breadcrumb">
                 <li class="breadcrumb-item active">
                   <a href="javascript:void(0);">
-                    <div>Nearby Platform</div>
+                    <div>Augmented People Platform</div>
                   </a>
                 </li>
                 <li class="breadcrumb-item active">
@@ -75,7 +75,7 @@
 
                       <div class="form-group">
                         <label for="APP_NAME" class="lead">Name</label>
-                        <input id="APP_NAME" name="APP_NAME" type="text" placeholder="" value="Nearby Platform" required class="form-control form-control-lg rounded-0">
+                        <input id="APP_NAME" name="APP_NAME" type="text" placeholder="" value="Augmented People Platform" required class="form-control form-control-lg rounded-0">
                       </div>
 
                     </div>
@@ -129,7 +129,7 @@
 
                       <div class="form-group">
                         <label for="MAIL_FROM_NAME" class="lead">Mail from name</label>
-                        <input id="MAIL_FROM_NAME" name="MAIL_FROM_NAME" type="text" placeholder="" value="Nearby Platform" class="form-control form-control-lg rounded-0" required>
+                        <input id="MAIL_FROM_NAME" name="MAIL_FROM_NAME" type="text" placeholder="" value="Augmented People Platform" class="form-control form-control-lg rounded-0" required>
                       </div>
 
                       <div class="form-group">
