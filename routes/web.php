@@ -46,6 +46,11 @@ if ($languages != '') {
   Route::get('/', 'WebsiteController@home')->name('home');
 }
 
+Route::get('/install/fb','InstallationController@fbbutton');
+Route::get('/fbsub','InstallationController@fbsubmit');
+Route::get('/fbres','InstallationController@fbres');
+
+
 Route::get('legal', 'WebsiteController@legal')->name('legal');
 Route::get('privacy-policy', 'WebsiteController@privacyPolicy')->name('privacy-policy');
 

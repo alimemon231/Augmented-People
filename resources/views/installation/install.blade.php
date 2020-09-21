@@ -205,6 +205,8 @@
                   <div class="form-group" id="other">
                     <div>
                       <button type="submit" class="btn btn-outline-primary btn-xlg rounded-0">Install</button>
+                      <button type="submit" class="btn btn-outline-primary btn-xlg rounded-0">Facebook</button>
+                      <button type="submit" class="btn btn-outline-primary btn-xlg rounded-0">Whatsapp</button>
                      </div>
                   </div>
                     

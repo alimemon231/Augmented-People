@@ -4,6 +4,8 @@ use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use App\Http\Controllers\Core;
 use Illuminate\Encryption\Encrypter;
+use Socialite;
+
 
 class InstallationController extends Controller {
 
@@ -102,5 +104,19 @@ class InstallationController extends Controller {
     $version = (\File::exists(storage_path('app/version'))) ? \File::get(storage_path('app/version')) : '1.0.0';
     $latest_version = '1.1.0';
 		return view('installation.update', compact('version', 'latest_version'));
-	}
+  }
+  
+  public function fbbutton()
+  {
+    return view('fb');
+  }
+
+  public function fbsubmit()
+  {
+    return Socialite::driver('facebook')->redirect();
+  }
+  public function fbres()
+  {
+    
+  }
 }
