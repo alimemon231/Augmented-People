@@ -1,5 +1,5 @@
         <section>
-          <div class="footer text-dark footer-padding-xxl" style="background-image:url('{{ url('assets/images/backgrounds/triangles.jpg') }}');">
+         <!-- <div class="footer text-dark footer-padding-xxl" style="background-image:url('{{ url('assets/images/backgrounds/triangles.jpg') }}');">
             <div class="footer-overlay" style="background-color:rgba(245,249,250,0.9)">
               <div class="container">
                 <div class="row">
@@ -37,5 +37,18 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>-->
         </section>
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+1 (242) 455-4896", // WhatsApp number
+            call_to_action: "Hello, how may we help you? ", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>

@@ -75,9 +75,10 @@ $subnav = false;
                   <div class="col-12 col-lg-6 text-md-center text-lg-left">
                     <div class="mt-5 mt-md-4 mt-lg-5 pt-5 pt-md-2">
                       <div class="row">
-                        <h1 class="display-4 color-light mt-lg-5 mt-5 col-12 col-lg-11">Customer Loyalty <small>with the</small> Nearby Platform</h1>
+                        <!-- <h1 class="display-4 color-light mt-lg-5 mt-5 col-12 col-lg-11">Customer Loyalty <small>with the</small> Augmented People Platform</h1> -->
+<img class="display-4 mt-lg-5 mt-5 col-12 col-lg-11" src='assets/images/slider/robot.jpeg'></img>
                       </div>
-                      <p class="lead mb-5">Mobile optimized content for Social Media, QR codes, NFC and proximity marketing.</p>
+                      <p class="lead mb-4" style="font-size:20px">Mobile personalized bots and artificial intelligence to optimized your database for social media, YouTube and the Internet age with the Augmented People Platform that extends human intelligence</p>
 
                     </div>
                     <div class="btn-container btn-stack-md">
@@ -89,7 +90,7 @@ $subnav = false;
 
                     <div class="owl-carousel owl-theme max-width-500 mt-5 mt-lg-5">
                       <div class="item">
-                        <a href="{{ url(trans('website.page_prefix') . 'login') }}"><img src="{{ url('assets/images/slider/nearby-platform.png') }}" alt="Nearby Platform" class="img-fluid"></a>
+                        <a href="{{ url(trans('website.page_prefix') . 'login') }}"><img src="{{ url('assets/images/slider/banner_img.jpeg') }}" alt="Nearby Platform" class="img-fluid"></a>
                       </div>
                     </div>
 

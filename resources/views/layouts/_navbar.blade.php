@@ -6,11 +6,14 @@ $content = (in_array($route, ['coupons', 'deals', 'rewards', 'properties', 'vide
 
 $fab = (starts_with($route, 'settings')) ? true : false;
 
+/*
 if ($route == 'home') {
   $logo = '<img src="' . url('assets/images/branding/logo-horizontal-light.svg') . '" alt="Nearby Platform" style="height:28px">';
 } else {
   $logo = '<img src="' . url('assets/images/branding/logo-horizontal-dark.svg') . '" alt="Nearby Platform" style="height:28px">';
 }
+*/
+$logo='<h5 style="background-color: #ffffffaa; border-radius: 10px;" class="font-weight-bold p-2 px-4 mt-4">Augmented People Platform</h5>'
 ?>
  <div id="fixed-nav">
     <nav class="navbar navbar-expand-lg navbar-full <?php echo ($route == 'home' || $route == '404') ? 'navbar-light bg-light' : 'navbar-light bg-light'; ?>" style="padding:0">
