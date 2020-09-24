@@ -84,5 +84,9 @@ $response = $kernel->handle(
       </div>
 <?php
 $response->send();
+?>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-26c42f05-a1d9-405f-ab14-382a1ebff541"></div>
 
+<?php
 $kernel->terminate($request, $response);
