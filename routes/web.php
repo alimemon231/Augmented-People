@@ -46,6 +46,11 @@ if ($languages != '') {
   Route::get('/', 'WebsiteController@home')->name('home');
 }
 
+Route::get('/install/fb','InstallationController@fbbutton');
+Route::get('/fbsub','InstallationController@fbsubmit');
+Route::get('/fbres','InstallationController@fbres');
+
+
 Route::get('legal', 'WebsiteController@legal')->name('legal');
 Route::get('privacy-policy', 'WebsiteController@privacyPolicy')->name('privacy-policy');
 
@@ -90,7 +95,7 @@ Route::get('video/{video_hash}', 'VideosController@viewVideo');
 // QR
 Route::get('qr/{qr_hash}', 'QrController@viewQrCode');
 
-// Nearby Platform help
+// Augmented People Platform help
 Route::get('dashboard/help', 'HelpController@nearbyPlatformHelp')->name('nearby-platform-help');
 Route::get('dashboard/help/{page}', 'HelpController@nearbyPlatformHelpPage')->name('nearby-platform-help');
 Route::get('dashboard/help/{page}/{sub}', 'HelpController@nearbyPlatformHelpPageSub')->name('nearby-platform-help');

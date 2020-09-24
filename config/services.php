@@ -35,6 +35,12 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'facebook' => [
+      'client_id' => '3090424587747504',
+      'client_secret' =>'d4471c09c01e39440f262de2c498a372',
+      'redirect' => 'http://localhost:8000/install/fbres',
+    ],
+
     'github' => [
       'client_id' => env('GITHUB_CLIENT_ID'),
       'client_secret' => env('GITHUB_CLIENT_SECRET'),

@@ -161,7 +161,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         /*
-         * Nearby Platform Service Providers...
+         * Augmented People Platform Service Providers...
          */
         Czim\Paperclip\Providers\PaperclipServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
@@ -219,7 +219,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         /*
-         * Nearby Platform aliases...
+         * Augmented People Platform aliases...
          */
         'Image' => Intervention\Image\Facades\Image::class,
         'DNS1D' => Milon\Barcode\Facades\DNS1DFacade::class,

@@ -21,7 +21,7 @@
    <div id="fixed-nav">
       <nav class="navbar navbar-expand-lg navbar-full navbar-light bg-light" style="padding:0">
         <div class="container">
-            <a class="navbar-brand navbar-logo" href="javascript:void(0);"><img src="{{ url('assets/images/branding/logo-horizontal-dark.svg') }}" alt="Nearby Platform" style="height:28px"></a>
+            <a class="navbar-brand navbar-logo" href="javascript:void(0);"><img src="{{ url('assets/images/branding/logo-horizontal-dark.svg') }}" alt="Augmented People Platform" style="height:28px"></a>
         </div>
       </nav>
   </div>
@@ -36,7 +36,7 @@
             <div class="col-12 col-sm-6 col-md-4 col-sm-3">
               <a href="{{ url('/') }}"><img src="{{ url('assets/images/branding/icon-circle-dark.svg') }}" alt="Mobile Content for Location Marketing" style="height:48px; max-width: 100%; margin-bottom: 18px;" class="mt-5 mb-3 mt-md-2"></a>
               <address>
-                Copyright &copy; {{ date('Y') }} {{ env('APP_NAME', 'Nearby Platform') }}.<br>
+                Copyright &copy; {{ date('Y') }} {{ env('APP_NAME', 'Augmented People Platform') }}.<br>
                 All rights reserved.
               </address>
 
